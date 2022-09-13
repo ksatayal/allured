@@ -39,7 +39,7 @@ public class AllureProperties {
         private final long historyLevel;
 
         public Reports() {
-            this("allure/reports/", "reports/", 20);
+            this("allure/reports/", "reports/", 20000);
         }
 
         public Reports(String dir,
